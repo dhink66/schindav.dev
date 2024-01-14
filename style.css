@@ -11,7 +11,7 @@ html {
 }
 body {
   background-color: #1a2115;
-  color: #9ba693;
+  color: #b2bbab;
   font-family: "Stick No Bills", sans-serif;
 }
 /* /////////////////////////////////////////// */
@@ -69,8 +69,8 @@ p {
   border-bottom: 2px dashed #96e26f;
 }
 .imgMe-box {
-  width: 24rem;
-  height: 16rem;
+  width: 26rem;
+  height: 18rem;
 }
 .imgMe {
   width: 100%;
