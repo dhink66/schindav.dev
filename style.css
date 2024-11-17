@@ -10,14 +10,21 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: #1a2115;
+  /* background-color: #1a2115; */
+  /* color: #b2bbab; */
+  background-color: #0e100b;
   color: #b2bbab;
   font-family: "Stick No Bills", sans-serif;
+  height: 100vh;
+  /* bg pattern overlay */
+  background-image: url(src/bghero50.webp);
+  background-size: cover;
+  background-blend-mode: color;
 }
 /* /////////////////////////////////////////// */
 /* REPEATS */
 .page-margin {
-  margin: 14rem 34rem 2rem 34rem;
+  padding: 9rem 34rem 2rem 34rem;
   position: relative;
 }
 .bottom-margin {
@@ -30,7 +37,7 @@ h1 {
 p {
   font-size: 1.6rem;
   line-height: 2.8rem;
-  letter-spacing: 0.08rem;
+  letter-spacing: 0.12rem;
   font-weight: 200;
 }
 
@@ -41,6 +48,7 @@ p {
   flex-direction: column;
   gap: 2rem;
 }
+
 /* /////////////////////////////////////////// */
 /* 2ndsection */
 .projectAndPhoto {
@@ -58,6 +66,7 @@ p {
 
 .link {
   font-size: 1.6rem;
+  letter-spacing: 0.12rem;
   text-decoration: none;
   color: #96e26f;
   width: fit-content;
@@ -69,14 +78,12 @@ p {
   border-bottom: 2px dashed #96e26f;
 }
 .imgMe-box {
-  width: 26rem;
-  height: 18rem;
+  width: 22rem;
+  height: 22rem;
 }
 .imgMe {
   width: 100%;
   height: 100%;
-
-  /* flex-shrink: 0; */
 }
 /* /////////////////////////////////////////// */
 /* 3rd section */
@@ -127,14 +134,14 @@ footer {
 /* 1300 / 16  - Smaller Desktops*/
 @media (max-width: 81em) {
   .page-margin {
-    margin: 12rem 20rem 2rem 20rem;
+    padding: 6rem 20rem 2rem 20rem;
   }
 }
 
 /* 800 / 16   - Smaller Desktops*/
 @media (max-width: 50em) {
   .page-margin {
-    margin: 8rem 6rem 2rem 6rem;
+    padding: 8rem 6rem 2rem 6rem;
   }
 }
 
@@ -144,7 +151,7 @@ footer {
     height: 100vh;
   }
   .page-margin {
-    margin: 9rem 4rem 2rem 4rem;
+    padding: 9rem 4rem 2rem 4rem;
   }
   h1 {
     font-size: 2rem;
