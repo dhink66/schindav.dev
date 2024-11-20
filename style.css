@@ -17,9 +17,9 @@ body {
   font-family: "Stick No Bills", sans-serif;
   height: 100vh;
   /* bg pattern overlay */
-  background-image: url(src/bghero50.webp);
+  /* background-image: url(src/bghero50.webp);
   background-size: cover;
-  background-blend-mode: color;
+  background-blend-mode: color; */
 }
 /* /////////////////////////////////////////// */
 /* REPEATS */
@@ -151,7 +151,7 @@ footer {
     height: 100vh;
   }
   .page-margin {
-    padding: 9rem 4rem 2rem 4rem;
+    padding: 7rem 4rem 2rem 4rem;
   }
   h1 {
     font-size: 2rem;
@@ -174,9 +174,13 @@ footer {
   .createdProjects {
     gap: 2.4rem;
   }
-  .imgMe-box {
+  /* .imgMe-box {
     width: 12rem;
     height: 8rem;
+  } */
+  .imgMe-box {
+    width: 14rem;
+    height: 14rem;
   }
 
   .hobbiesLinks {
